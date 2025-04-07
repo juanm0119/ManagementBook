@@ -1,0 +1,3 @@
+INSERT INTO user (name,email,password) VALUES ('Juan', 'jadarve@gmail.com', '$2a$10$fbtstnwsG89ZaJfnWAk5m.iAI7hSDtrBNzQG.w.MxJ7iNRsE4Z8M6');
+INSERT INTO book (isbn, genre, title, synopsis, user_id, created_at, published_at) VALUES ('HSJDHFS7YDFS', 'romance', 'que pides tu', 'una reflexion sobre la vida, y verla desde su lado azul', 1, NOW(), NOW());
+INSERT INTO book (isbn, genre, title, synopsis, user_id, created_at, published_at) VALUES ('HSJDHFS7YDFE', 'romance', 'Me muero por conocerte', 'una reflexion sobre la vida, y verla desde su lado azul', 1, NOW(), NOW());
